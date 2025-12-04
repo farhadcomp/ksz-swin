@@ -1,0 +1,132 @@
+Using device: cuda
+--- Starting Final Model Training with Best Hyperparameters ---
+Using parameters: {'lr': 9.792998174278061e-05, 'head_dims': [95, 210, 202], 'dropout_rate': 0.11072841603148399, 'weight_decay': 0.006559148317250172, 'num_unfrozen_blocks': 2}
+Epoch [1/500] | Validation MSE: 0.7686
+  -> New best model saved to /home/farhadik/ksz-swin/offline-laplace/plots_Final_Run_20251204_120146/best_model.pth
+Epoch [2/500] | Validation MSE: 0.5169
+  -> New best model saved to /home/farhadik/ksz-swin/offline-laplace/plots_Final_Run_20251204_120146/best_model.pth
+Epoch [3/500] | Validation MSE: 0.2272
+  -> New best model saved to /home/farhadik/ksz-swin/offline-laplace/plots_Final_Run_20251204_120146/best_model.pth
+Epoch [4/500] | Validation MSE: 0.2501
+Epoch [5/500] | Validation MSE: 0.2563
+Epoch [6/500] | Validation MSE: 0.1339
+  -> New best model saved to /home/farhadik/ksz-swin/offline-laplace/plots_Final_Run_20251204_120146/best_model.pth
+Epoch [7/500] | Validation MSE: 0.0917
+  -> New best model saved to /home/farhadik/ksz-swin/offline-laplace/plots_Final_Run_20251204_120146/best_model.pth
+Epoch [8/500] | Validation MSE: 0.1778
+Epoch [9/500] | Validation MSE: 0.2942
+Epoch [10/500] | Validation MSE: 0.1084
+Epoch [11/500] | Validation MSE: 0.1174
+Epoch [12/500] | Validation MSE: 0.1358
+Epoch [13/500] | Validation MSE: 0.1626
+Epoch [14/500] | Validation MSE: 0.1265
+Epoch [15/500] | Validation MSE: 0.0852
+  -> New best model saved to /home/farhadik/ksz-swin/offline-laplace/plots_Final_Run_20251204_120146/best_model.pth
+Epoch [16/500] | Validation MSE: 0.0754
+  -> New best model saved to /home/farhadik/ksz-swin/offline-laplace/plots_Final_Run_20251204_120146/best_model.pth
+Epoch [17/500] | Validation MSE: 0.1201
+Epoch [18/500] | Validation MSE: 0.1798
+Epoch [19/500] | Validation MSE: 0.0736
+  -> New best model saved to /home/farhadik/ksz-swin/offline-laplace/plots_Final_Run_20251204_120146/best_model.pth
+Epoch [20/500] | Validation MSE: 0.0782
+Epoch [21/500] | Validation MSE: 0.0617
+  -> New best model saved to /home/farhadik/ksz-swin/offline-laplace/plots_Final_Run_20251204_120146/best_model.pth
+Epoch [22/500] | Validation MSE: 0.1156
+Epoch [23/500] | Validation MSE: 0.1474
+Epoch [24/500] | Validation MSE: 0.0688
+Epoch [25/500] | Validation MSE: 0.0647
+Epoch [26/500] | Validation MSE: 0.1063
+Epoch [27/500] | Validation MSE: 0.0965
+Epoch [28/500] | Validation MSE: 0.1512
+Epoch [29/500] | Validation MSE: 0.0660
+Epoch [30/500] | Validation MSE: 0.0582
+  -> New best model saved to /home/farhadik/ksz-swin/offline-laplace/plots_Final_Run_20251204_120146/best_model.pth
+Epoch [31/500] | Validation MSE: 0.0603
+Epoch [32/500] | Validation MSE: 0.0643
+Epoch [33/500] | Validation MSE: 0.1276
+Epoch [34/500] | Validation MSE: 0.0927
+Epoch [35/500] | Validation MSE: 0.0741
+Epoch [36/500] | Validation MSE: 0.0634
+Epoch [37/500] | Validation MSE: 0.0608
+Epoch [38/500] | Validation MSE: 0.0534
+  -> New best model saved to /home/farhadik/ksz-swin/offline-laplace/plots_Final_Run_20251204_120146/best_model.pth
+Epoch [39/500] | Validation MSE: 0.0637
+Epoch [40/500] | Validation MSE: 0.0605
+Epoch [41/500] | Validation MSE: 0.0536
+Epoch [42/500] | Validation MSE: 0.0936
+Epoch [43/500] | Validation MSE: 0.0745
+Epoch [44/500] | Validation MSE: 0.0984
+Epoch [45/500] | Validation MSE: 0.0624
+Epoch [46/500] | Validation MSE: 0.0633
+Epoch [47/500] | Validation MSE: 0.0852
+Epoch [48/500] | Validation MSE: 0.0561
+Epoch [49/500] | Validation MSE: 0.0594
+Epoch [50/500] | Validation MSE: 0.0784
+Epoch [51/500] | Validation MSE: 0.0876
+Epoch [52/500] | Validation MSE: 0.0763
+Epoch [53/500] | Validation MSE: 0.0559
+Epoch [54/500] | Validation MSE: 0.0528
+  -> New best model saved to /home/farhadik/ksz-swin/offline-laplace/plots_Final_Run_20251204_120146/best_model.pth
+Epoch [55/500] | Validation MSE: 0.0710
+Epoch [56/500] | Validation MSE: 0.0553
+Epoch [57/500] | Validation MSE: 0.0542
+Epoch [58/500] | Validation MSE: 0.0571
+Epoch [59/500] | Validation MSE: 0.0720
+Epoch [60/500] | Validation MSE: 0.0887
+Epoch [61/500] | Validation MSE: 0.0642
+Epoch [62/500] | Validation MSE: 0.0563
+Epoch [63/500] | Validation MSE: 0.0685
+Epoch [64/500] | Validation MSE: 0.0695
+Epoch [65/500] | Validation MSE: 0.0585
+Epoch [66/500] | Validation MSE: 0.0515
+  -> New best model saved to /home/farhadik/ksz-swin/offline-laplace/plots_Final_Run_20251204_120146/best_model.pth
+Epoch [67/500] | Validation MSE: 0.0561
+Epoch [68/500] | Validation MSE: 0.0588
+Epoch [69/500] | Validation MSE: 0.0559
+Epoch [70/500] | Validation MSE: 0.0577
+Epoch [71/500] | Validation MSE: 0.0639
+Epoch [72/500] | Validation MSE: 0.0571
+Epoch [73/500] | Validation MSE: 0.0626
+Epoch [74/500] | Validation MSE: 0.0565
+Epoch [75/500] | Validation MSE: 0.0606
+Epoch [76/500] | Validation MSE: 0.0549
+Epoch [77/500] | Validation MSE: 0.0652
+Epoch [78/500] | Validation MSE: 0.0571
+Epoch [79/500] | Validation MSE: 0.0567
+Epoch [80/500] | Validation MSE: 0.0606
+Epoch [81/500] | Validation MSE: 0.0592
+Epoch [82/500] | Validation MSE: 0.0602
+Epoch [83/500] | Validation MSE: 0.0579
+Epoch [84/500] | Validation MSE: 0.0574
+Epoch [85/500] | Validation MSE: 0.0566
+Epoch [86/500] | Validation MSE: 0.0601
+Epoch [87/500] | Validation MSE: 0.0593
+Epoch [88/500] | Validation MSE: 0.0601
+Epoch [89/500] | Validation MSE: 0.0584
+Epoch [90/500] | Validation MSE: 0.0592
+Epoch [91/500] | Validation MSE: 0.0586
+Epoch [92/500] | Validation MSE: 0.0593
+Epoch [93/500] | Validation MSE: 0.0585
+Epoch [94/500] | Validation MSE: 0.0574
+Epoch [95/500] | Validation MSE: 0.0579
+Epoch [96/500] | Validation MSE: 0.0588
+Early stopping triggered after 96 epochs.
+Best model weights loaded for Laplace.
+
+ Applying Laplace Approximation
+ Optimizing Laplace Hyperparameters
+Optimized sigma=1.02 prior precision=7.24
+Fitted Laplace model saved to /home/farhadik/ksz-swin/offline-laplace/plots_Final_Run_20251204_120146/fitted_laplace.pth
+Successfully loaded fitted Laplace model from /home/farhadik/ksz-swin/offline-laplace/plots_Final_Run_20251204_120146/fitted_laplace.pth
+
+ Evaluating Final Model on Test Set
+Evaluating:   0%|                                                                                | 0/5 [00:00<?, ?it/s]Evaluating:  20%|██████████████▍                                                         | 1/5 [00:00<00:00,  9.54it/s]Evaluating:  60%|███████████████████████████████████████████▏                            | 3/5 [00:00<00:00, 10.77it/s]Evaluating: 100%|████████████████████████████████████████████████████████████████████████| 5/5 [00:00<00:00, 11.91it/s]Evaluating: 100%|████████████████████████████████████████████████████████████████████████| 5/5 [00:00<00:00, 11.53it/s]
+
+ Final Test Metrics
+MAE: 0.0012
+RMSE: 0.0015
+R² Score: 0.9332
+Pearson: 0.9678
+Chi-Squared Metric: 9.56
+
+Total running time: 8.14 minutes
