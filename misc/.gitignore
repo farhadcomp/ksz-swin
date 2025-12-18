@@ -1,0 +1,16 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# SLURM
+slurm-*.out
+
+# Generated plots
+plots_Final_Run_*/
+
+# Models / scalers
+*.pkl
+

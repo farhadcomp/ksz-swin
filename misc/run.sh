@@ -7,4 +7,4 @@
 source /home/farhadik/miniforge3/bin/activate
 conda activate torch
 
-python3 tau_hist.py
+python3 cpt_sal.py

@@ -7,6 +7,7 @@ import h5py
 from datetime import datetime
 from sklearn.preprocessing import StandardScaler
 import torch
+from matplotlib.ticker import FormatStrFormatter
 
 
 folder_name = f"plots_Final_Run_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
@@ -35,13 +36,18 @@ file_path = "/home/laplante/data/ksz/all_snapshots.hdf5"
 # ydata, tau_scaler = load_and_preprocess_data(file_path)
 ydata = load_and_preprocess_data(file_path)
 
+print(f"Min of ydata: {ydata.min()}")
+print(f"Max of ydata: {ydata.max()}")
+
 fig , ax = plt.subplots()
 n, bins, patches = ax.hist(ydata, bins=15, density=True, 
                            alpha=0.7, color='steelblue', edgecolor='black')
-ax.axvline(x=0.054, color='red', linestyle='--', linewidth=2, label='Planck 2020 Mean')
+ax.axvline(x=0.054, color='red', linestyle='--', linewidth=2, label='Planck Collaboration et al. 2020 Mean')
 ax.set_xlabel(r"Optical Depth ($\tau$)")
 ax.set_ylabel("Probability Density")
-ax.set_title(r"Distribution of $\tau$ Values in Training Set")
+ax.set_title(r"Distribution of $\tau$ Values in Data Set")
+ax.xaxis.set_major_formatter(FormatStrFormatter('%.3f'))
+# ax.tick_params(axis='x', rotation=45)
 ax.legend()
 
 save_plot(fig, "tau_histogram_normalized.pdf")
